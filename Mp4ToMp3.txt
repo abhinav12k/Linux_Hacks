@@ -1,0 +1,18 @@
+# Steps to convert mp4/mkv and WebM  file to mp3 - 
+    1. Install ffmpeg, lame 
+        (For Arc linux Users)
+        'sudo pacman -S lame ffmpeg'
+
+        (For Ubuntu users)
+        'sudo apt -y install ffmpeg lame'
+    
+    2. Download the conversion script
+        'wget https://raw.githubusercontent.com/abhinav78910/Linux_Hacks/main/scripts/convertVideoToAudio.sh' 
+    
+    3. Now make the script executable
+        'chmod +x convertVideoToAudio.sh'
+
+    4. Now run the script 
+        './convertVideoToAudio.sh'
+            or
+        'sh convertVideoToAudio.sh'
